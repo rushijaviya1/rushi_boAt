@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  #imagesizehome
+      {
+        height: 473px;
+        width:100%;
+      }
+* {box-sizing: border-box}
+
+body, html {
+  height: 1000px;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tablink {
+  background-color: rgb(37, 86, 135);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: rgb(33, 216, 140);
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.button {
+  background-color: #b97078;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+.button a {
+    float: left;
+    color: #efeeee;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.button:hover {
+  background-color: rgb(208, 25, 25);
+}
+.column {
+  float: left;
+  width: 25%;
+
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+
+#Home {background-color: rgb(37, 156, 189);}
+#Services {background-color: rgb(37, 156, 189);}
+#Contact {background-color: rgb(37, 156, 189);}
+#About {background-color: rgb(37, 156, 189);}
+#product {background-color: rgb(37, 156, 189);}
+</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boat</title>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'rgba(192, 195, 192, 0.873)')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('product', this, 'rgba(192, 195, 192, 0.873)')">Products</button>
+<button class="tablink" onclick="openPage('Services', this, 'rgba(192, 195, 192, 0.873)')">Services</button>
+<button class="tablink" onclick="openPage('Contact', this, 'rgba(192, 195, 192, 0.873)')">Contact us</button>
+<button class="tablink" onclick="openPage('About', this, 'rgba(192, 195, 192, 0.873)')">About us</button>
+
+<div id="Home" class="tabcontent">
+  <h1 style="font-family:'Gill Sans', 'Gill Sans MT';" align="center">Welcome to BoAt</h1>
+  <a href="https://www.boat-lifestyle.com/"><img src="logo.jpg" alt="" style="height: 600px; width: 1300px;" align="center"></a>
+  <button class="button"><a href="https://www.boat-lifestyle.com/collections/smart-watches" style="font-size: 29px; color: rgb(255, 255, 255);" align="center center">Smart Watches</a></button>
+  <button class="button"><a href="https://www.boat-lifestyle.com/collections/immortal-gaming" style=" font-size: 29px;">Gaming Headphone</a></button>
+  <button class="button"><a href="https://www.boat-lifestyle.com/collections/wired-headphones" style="font-size: 29px; color: rgb(255, 255, 255);" >Wired Earphone</a></button>
+  <button class="button"><a href="https://www.boat-lifestyle.com/collections/true-wireless-earbuds" style=" font-size: 29px;">Air Buds</a></button>
+</div>
+
+<div id="product" class="tabcontent" style="height: 1500px;"> 
+  <h2>Smart Watches & Airpods : </h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="1.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="2.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="3.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="4.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+
+  <h2>Gaming Headphones & Wired Earphone : </h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="5.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="6.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="7.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <a href=""><img src="8.jpg" alt="" id="imagesizehome"></a>
+        <div class="container">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="Services" class="tabcontent">
+  
+  <h2>Exchange items:</h2>
+  <h4>Now you can exchange any product within 7 days after delivery.
+
+    Our team will assist you to pick up your exchange and deliver your new product.</h4>
+
+  <h2>Payment Issues :</h2>
+  <h4>If you experience any issue while paying for the products, you may need to fix it with your payments profile. </h4>
+
+  <h2>About warranty :</h2>
+  <h4>A warranty can help ensure your peace of mind. 
+
+    To help you solve your biggest problems quickly.</h4>
+
+
+
+
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h2>For any inquiry & complain : 000 0000 000</h2>
+  <h2>For give order : 111 1111 111</h2>
+  <h2>For warranty related inquiry : 222 2222 222</h2>
+  <h2>Email address : abc@gmail.com</h2>
+</div>
+
+
+<div id="About" class="tabcontent">
+  <h3>
+  <p>During one of their many explorations, our founders Aman Gupta and Sameer Mehta discovered that the dopest people of our land were in search of affordable, durable and ultra fashionable audio products to groove to.
+
+    Thus, in 2014, they kickstarted a great voyage in Indian consumer waters.</p>
+
+  <p>Every boAthead out there is our anchor! Their love and support inspires us to never back down, even in turbulent waters and stormy seas.
+
+    No wonder then, that we've sailed from strength to strength, even in a year like 2020.</p>
+
+  <p>All that has happened to us is overwhelming, yes, but it pushes us to do more, be more and make more products that you can use to jazz up your lifestyle.
+
+    So, in 2021, we've started to fearlessly rock in India with a range of products that free-spirited Indians like you can truly call your own!</p>
+  </h3>
+</div>
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+</html>
